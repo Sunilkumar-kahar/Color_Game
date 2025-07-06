@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+#mainDiv{
+    width:35%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#gameContent, #cntrlBtn{
+    display: none;
+}
+
+#instructionDiv {
+    width: fit-content;
+    margin: auto;         
+}
+
+h4{
+    width: fit-content;
+}
+
+button{
+    padding: 3px;
+}
+
+#colorBoxContainer{
+    border:2px solid black;
+    min-height: 300px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+
+.colorBox{
+    max-height: 100px;
+    min-width: 100px;
+    border: 2px solid black;
+    border-radius: 5%;
+    cursor: pointer;
+}
