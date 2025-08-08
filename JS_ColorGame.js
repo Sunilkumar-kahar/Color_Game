@@ -90,7 +90,7 @@ function startGame(){
     instructionDiv.style.display = "none";
     gameContent.style.display = "block";
     cntrlBtn.style.display = "inline-block";
-    time = 20;
+    time = 30;
     points = 0;
     setGameStats();
     timer.innerText = "⏳Time Left:"+ time +" Sec";
